@@ -6,6 +6,21 @@
 3. Open `http://localhost:8080` in your browser
 4. Follow the WordPress installation steps
 
+## USAGE
+- Run `docker-compose up -d` to start the containers
+- Run `docker-compose down` to stop the containers
+- Run `docker-compose down -v` to stop the containers and remove the volumes
+- Run `docker-compose exec wordpress bash` to open a bash shell in the WordPress container
+
+## CONTAINERS
+- WordPress: `http://localhost:8080`
+- MySQL: `http://localhost:8081`
+
+## Change the WordPress version
+- Change the `WORDPRESS_VERSION` in the `docker-compose.yml` file
+- Run `docker-compose up -d --build` to rebuild the containers
+
+
 ## Possibilities: 
 - Run WordPress with Docker
 - Test Themes and Plugins
