@@ -1,5 +1,9 @@
 # Testing envirement for WordPress with Docker
 
+## Requirements
+- Docker
+- Docker Compose (optional)
+
 ## INSTALLATION
 1. Clone the repository
 2. Run `docker-compose up -d`
