@@ -1,4 +1,4 @@
-# Testing envirement for WordPress with Docker
+# Testing environment Wordpress (with Docker)
 
 ## Requirements
 - Docker
