@@ -18,7 +18,8 @@
 
 ## CONTAINERS
 - WordPress: `http://localhost:8080`
-- MySQL: `http://localhost:8081`
+- MySQL: `http://localhost:3306`
+Localhost Adresses are defined in the `docker-compose.yml` file and can be changed.
 
 ## Change the WordPress version
 - Change the `WORDPRESS_VERSION` in the `docker-compose.yml` file
